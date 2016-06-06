@@ -1,7 +1,7 @@
 jobs :
   - job :
-      name : jun5test
+      name : testreso
       type : manifest
       steps :
-        - GET jun5-resource1
-        - PUT jun5-resource1
+        - GET newreso
+        - PUT newreso
