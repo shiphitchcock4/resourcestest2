@@ -1,7 +1,6 @@
 jobs :
-  - job :
-      name : testreso
-      type : manifest
-      steps :
-        - GET newreso
-        - PUT newreso
+  - name : testreso
+    type : manifest
+    steps :
+      - GET newreso
+      - PUT newreso
