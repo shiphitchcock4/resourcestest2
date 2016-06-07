@@ -14,5 +14,5 @@ jobs :
   - name : jobtesting7
     type : manifest
     steps :
-      - GET varreso8
+      - GET varreso88
       - PUT varreso8
