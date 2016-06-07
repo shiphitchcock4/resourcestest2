@@ -1,6 +1,6 @@
 jobs :
-  - name : testreso
+  - name : jobtesting1
     type : manifest
     steps :
-      - GET newreso
-      - PUT newreso
+      - GET varreso1
+      - PUT varreso1
