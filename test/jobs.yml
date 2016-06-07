@@ -1,6 +1,12 @@
 jobs :
-  - name : jobtesting1
+  - name : jobtesting2
     type : manifest
     steps :
-      - GET varreso1
-      - PUT varreso1
+      - GET varreso2
+      - PUT varreso2
+      
+  - name : jobtesting3
+    type : manifest
+    steps :
+      - GET varreso3
+      - PUT varreso3
