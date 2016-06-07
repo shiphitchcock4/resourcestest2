@@ -10,3 +10,9 @@ jobs :
     steps :
       - GET varreso3
       - PUT varreso3
+      
+  - name : jobtesting4
+    type : manifest
+    steps :
+      - GET varreso4
+      - PUT varreso4
